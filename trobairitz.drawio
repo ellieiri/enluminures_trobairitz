@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T12:11:38.204Z" agent="5.0 (Macintosh)" etag="j56eUMDwnkCZ_K5idTHa" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-06T12:16:23.340Z" agent="5.0 (Macintosh)" etag="Avz6FcuDIeM4Hqw0GVNC" version="20.8.23" type="github">
   <diagram name="Page-1" id="ISxgPvERkCNKBEx-Qs9j">
     <mxGraphModel dx="764" dy="333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,30 +149,27 @@
         <mxCell id="0F5d1zWxfYyvfxIagCj2-46" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="403" y="465.5" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SppowkEQW7QCCt_xI4Ui-2" value="&lt;div align=&quot;center&quot;&gt;Attribute&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;pk&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;definition&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="604" y="540" width="140" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="SppowkEQW7QCCt_xI4Ui-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SppowkEQW7QCCt_xI4Ui-3" target="SppowkEQW7QCCt_xI4Ui-4">
+        <mxCell id="SppowkEQW7QCCt_xI4Ui-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SppowkEQW7QCCt_xI4Ui-2" target="SppowkEQW7QCCt_xI4Ui-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SppowkEQW7QCCt_xI4Ui-12" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SppowkEQW7QCCt_xI4Ui-10">
-          <mxGeometry x="-0.4274" y="2" relative="1" as="geometry">
+        <mxCell id="SppowkEQW7QCCt_xI4Ui-17" value="belongs to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SppowkEQW7QCCt_xI4Ui-16">
+          <mxGeometry x="0.3915" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SppowkEQW7QCCt_xI4Ui-2" value="&lt;div align=&quot;center&quot;&gt;Attribute&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;pk&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;definition&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="720" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SppowkEQW7QCCt_xI4Ui-15" value="has" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.669;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SppowkEQW7QCCt_xI4Ui-3" target="SppowkEQW7QCCt_xI4Ui-2">
+          <mxGeometry x="-0.483" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SppowkEQW7QCCt_xI4Ui-3" value="&lt;div align=&quot;center&quot;&gt;Character&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;pk&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk miniature&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;name&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;gender&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;social statut&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;folio&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="354" y="550" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="SppowkEQW7QCCt_xI4Ui-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SppowkEQW7QCCt_xI4Ui-4" target="SppowkEQW7QCCt_xI4Ui-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SppowkEQW7QCCt_xI4Ui-14" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="SppowkEQW7QCCt_xI4Ui-11">
-          <mxGeometry x="0.1641" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SppowkEQW7QCCt_xI4Ui-4" value="&lt;div align=&quot;center&quot;&gt;Attribute group&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;pk&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk character&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;body position&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;object&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;background&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="491" y="710" width="140" height="130" as="geometry" />
+        <mxCell id="SppowkEQW7QCCt_xI4Ui-4" value="&lt;div align=&quot;center&quot;&gt;Attribute group&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;pk&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk character&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk attribute&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;body position&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;object&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;background&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="638" y="550" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="SppowkEQW7QCCt_xI4Ui-8" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="220" y="561" width="30" height="30" as="geometry" />
