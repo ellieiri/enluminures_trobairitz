@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-03T21:33:03.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0" etag="xTpvR6KWNdgHtkZ-idfs" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-03T21:36:23.796Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0" etag="AdnUAjE4kVOo2TvKHqMl" version="21.7.2" type="github">
   <diagram name="Page-1" id="ISxgPvERkCNKBEx-Qs9j">
-    <mxGraphModel dx="1034" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1088" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,8 +65,18 @@
         <mxCell id="5_R8-jG_ZgSdHom1V37W-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="SppowkEQW7QCCt_xI4Ui-3" target="5_R8-jG_ZgSdHom1V37W-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9yHJeScYr9vXDPFpUXAH-6" value="has" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_R8-jG_ZgSdHom1V37W-23">
+          <mxGeometry x="0.0667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9yHJeScYr9vXDPFpUXAH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="SppowkEQW7QCCt_xI4Ui-3" target="0F5d1zWxfYyvfxIagCj2-16">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yHJeScYr9vXDPFpUXAH-4" value="is in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9yHJeScYr9vXDPFpUXAH-1">
+          <mxGeometry x="0.2211" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SppowkEQW7QCCt_xI4Ui-3" value="&lt;div align=&quot;center&quot;&gt;Character&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;hr&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;pk&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk miniature&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk person&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;name&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;gender&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;social statut&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk background&lt;/div&gt;&lt;div&gt;fk body position&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk face&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk clothing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk hair&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk hand position&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk object&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="340" y="324.5" width="186" height="260" as="geometry" />
@@ -80,11 +90,16 @@
         <mxCell id="5_R8-jG_ZgSdHom1V37W-4" value="&lt;div&gt;Clothing&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;pk&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;definition&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="584" y="640" width="141.82" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5_R8-jG_ZgSdHom1V37W-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5_R8-jG_ZgSdHom1V37W-5" target="SppowkEQW7QCCt_xI4Ui-3" edge="1">
+        <mxCell id="5_R8-jG_ZgSdHom1V37W-25" value="is worn by" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.423;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5_R8-jG_ZgSdHom1V37W-5" target="SppowkEQW7QCCt_xI4Ui-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5_R8-jG_ZgSdHom1V37W-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="5_R8-jG_ZgSdHom1V37W-5" target="0F5d1zWxfYyvfxIagCj2-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yHJeScYr9vXDPFpUXAH-5" value="is in" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5_R8-jG_ZgSdHom1V37W-26">
+          <mxGeometry x="0.0778" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5_R8-jG_ZgSdHom1V37W-5" value="&lt;div&gt;Clothing colour&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;pk&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk miniature&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;fk character&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;head&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;dress&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;thights&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;shoes&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;horse&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70.00000000000003" y="350" width="141.82" height="170" as="geometry" />
